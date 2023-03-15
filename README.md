@@ -8,6 +8,12 @@
 * Part IV is this one here
 * Part V, done by Jogi, is available somewhere inside Roche as G-Slide, internal usecase for our Testfarm, making a lot of usage of [RubberJogi, Open Source here](https://github.com/jogi-k/RubberJogi) 
 
+## Concrete content ! 
+
+* Like the first and second talk : uses branch gh-pages
+* every push recreates the slides and publishes them
+* is published to : https://jogi-k.github.io
+* to be concrete : to https://jogi-k.github.io/micro-controllers-part4/
 
 ## Some ideas, collection
 
