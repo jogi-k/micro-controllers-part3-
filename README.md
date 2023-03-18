@@ -15,6 +15,15 @@
 * is published to : https://jogi-k.github.io
 * to be concrete : to https://jogi-k.github.io/micro-controllers-part4/
 
+## About presenting
+
+* At least for CODE there is the possibility to highlight lines step by step, see ```## Dockerfile``` in https://raw.githubusercontent.com/dbafromthecold/dockerdeepdive/gh-pages/slides.md
+* Animations are also possible, let's check if we can mix Markdown with HTML and JS ..., see 
+    * https://github.com/rogeralmeida/revealjs-animated <== looks GOOD
+    * https://github.com/Martinomagnifico/reveal.js-appearance  <== not yet checked 
+    * Built in to reveal: auto-ANIMATE : https://revealjs.com/auto-animate/
+    
+
 ## Some ideas, collection
 
 * Raspi-Pico W : One year later
