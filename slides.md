@@ -42,7 +42,7 @@
 
 ## Micro Python : Internal LED (Pin25)
 
-<pre><code data-line-numbers="1|3|5-7">
+<pre><code data-line-numbers="2|4|6-8">
 import machine
 
 led_onboard = machine.Pin(25, machine.Pin.OUT)
@@ -57,7 +57,7 @@ while True:
 
 ## Micro Python : External red LED (Pin15)
 
-<pre><code data-line-numbers="1|3|5-7">
+<pre><code data-line-numbers="2|4|6-8">
 import machine
 
 red_light = machine.Pin(15, machine.Pin.OUT)
