@@ -73,13 +73,13 @@
 * Open file local or from pico
 * Run
 
---- 
+---
 
 ### Setup from Raspi-foundation
 
 ![Setup](https://www.raspberrypi.com/documentation/microcontrollers/images/MicroPython-640x360-v2.gif)
 
---- 
+---
 
 ### Micro Python
 
@@ -115,6 +115,31 @@ while True:
 
 
 ---
+
+---
+
+### Circuit Python 
+
+#### Internal LED (Pin25)
+
+<pre><code data-line-numbers="2-4|6-7|9-12">
+import board
+import digitalio
+import time
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+    led.value = True
+    time.sleep(0.5)
+    led.value = False
+    time.sleep(0.5)
+
+
+</pre></code>
+
+
 
 
 ### Micro:BIT 
