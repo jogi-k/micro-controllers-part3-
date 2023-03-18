@@ -40,6 +40,38 @@
 
 ---
 
+## Micro Python : Internal LED (Pin25)
+
+<pre><code data-line-numbers="1|3|5-7">
+import machine
+
+led_onboard = machine.Pin(25, machine.Pin.OUT)
+
+while True:
+    led_onboard.value(1)
+    led_onboard.value(0)
+
+</pre></code>
+
+---
+
+## Micro Python : External red LED (Pin15)
+
+<pre><code data-line-numbers="1|3|5-7">
+import machine
+
+red_light = machine.Pin(15, machine.Pin.OUT)
+
+while True:
+    red_light.value(1)
+    red_light.value(0)
+
+</pre></code>
+
+
+
+---
+
 ## Dockerfile
 
 <pre><code data-line-numbers="1|3|5-8|10|12|14">FROM mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
