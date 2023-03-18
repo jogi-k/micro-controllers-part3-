@@ -33,6 +33,7 @@
 ### Buch Micro-Python
 
 * von Oreilly, bei mir auf DeepThought auch im Downloads-Folder
+* Getting started with Raspberry Pi Pico and Micro-Python : https://hackspace.raspberrypi.com/books/micropython-pico/pdf/download
 
 ### Oszilloscope
 
