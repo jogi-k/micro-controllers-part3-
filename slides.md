@@ -40,9 +40,9 @@
 
 ---
 
-## Micro-Python : official 
+### Micro-Python : official 
 
-### Setup Part 1
+#### Setup Part 1
 
 * Download Micropython U2F (with or w/o WLAN)
 * press BOOTSEL - Button
@@ -52,9 +52,10 @@
 * done
 
 ---
-## Micro-Python : official 
 
-### Setup Part 2
+### Micro-Python : official 
+
+#### Setup Part 2
 
 * Download Thonny 
 * Install Thonny
@@ -63,9 +64,9 @@
 
 ---
 
-## Micro-Python : official 
+### Micro-Python : official 
 
-### Start working 
+#### Start working 
 
 * Thonny == your IDE
 * Connect to Pico 
@@ -80,9 +81,9 @@
 
 --- 
 
-## Micro Python
+### Micro Python
 
-###  Internal LED (Pin25)
+####  Internal LED (Pin25)
 
 <pre><code data-line-numbers="2|4|6-8">
 import machine
@@ -97,9 +98,9 @@ while True:
 
 ---
 
-## Micro Python 
+### Micro Python 
 
-### External red LED (Pin15)
+#### External red LED (Pin15)
 
 <pre><code data-line-numbers="2|4|6-8">
 import machine
@@ -112,27 +113,6 @@ while True:
 
 </pre></code>
 
-
-
----
-
-## Dockerfile
-
-<pre><code data-line-numbers="1|3|5-8|10|12|14">FROM mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
-
-USER root
-
-RUN mkdir /var/opt/sqlserver
-RUN mkdir /var/opt/sqlserver/sqldata
-RUN mkdir /var/opt/sqlserver/sqllog
-RUN mkdir /var/opt/sqlserver/sqlbackups
-
-RUN chown -R mssql /var/opt/sqlserver
-
-USER mssql
-
-CMD /opt/mssql/bin/sqlservr
-</pre></code>
 
 ---
 
