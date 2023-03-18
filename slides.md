@@ -40,7 +40,49 @@
 
 ---
 
-## Micro Python : Internal LED (Pin25)
+## Micro-Python : official 
+
+### Setup Part 1
+
+* Download Micropython U2F (with or w/o WLAN)
+* press BOOTSEL - Button
+* connect USB
+* A USB-Stick appears
+* copy U2F to USB-Stick
+* done
+
+---
+## Micro-Python : official 
+
+### Setup Part 2
+
+* Download Thonny 
+* Install Thonny
+* (contains already serial tty-connection to Pico)
+* done
+
+---
+
+## Micro-Python : official 
+
+### Start working 
+
+* Thonny == your IDE
+* Connect to Pico 
+* Open file local or from pico
+* Run
+
+--- 
+
+### Setup from Raspi-foundation
+
+![Setup](https://www.raspberrypi.com/documentation/microcontrollers/images/MicroPython-640x360-v2.gif)
+
+--- 
+
+## Micro Python
+
+###  Internal LED (Pin25)
 
 <pre><code data-line-numbers="2|4|6-8">
 import machine
@@ -55,7 +97,9 @@ while True:
 
 ---
 
-## Micro Python : External red LED (Pin15)
+## Micro Python 
+
+### External red LED (Pin15)
 
 <pre><code data-line-numbers="2|4|6-8">
 import machine
