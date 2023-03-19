@@ -27,18 +27,6 @@
 
 ---
 
-### Micro-Controller 
-
-* something to control 
-   * LED
-   * Motor
-   * others
-* somehow be controlled
-   * Sensors
-   * Switches
-   * external events
-
----
 
 ### Micro-Python : official 
 
@@ -114,7 +102,6 @@ while True:
 </pre></code>
 
 
----
 
 ---
 
@@ -140,31 +127,6 @@ while True:
 </pre></code>
 
 
-
-
-### Micro:BIT 
-
-* Launched in 2016 by BBC in UK
-* Target: Every Schoolkid ~ 12y has one
-* Platform
-* Web-Editor
-* Simulator 
-* [The Web-Editor](https://makecode.microbit.org/#editor)
-
----
-### The Micro:BIT Board
-
-![The Board](pics/microbit_1.jpg)
-
-
----
-
-
-### Micro:BIT Homepage
-
-![Homepage MicroBit](pics/microbit_start.png)
-
-
 ---
 
 ### Demo-Time 1
@@ -176,11 +138,6 @@ while True:
 
 ### What we (hopefully) saw
 
-* https://microbit.org/
-* ditor : https://makecode.microbit.org/
-* Simple-Programm : https://makecode.microbit.org/_dt5boP7AKaqj
-* Fill-Screen : https://makecode.microbit.org/_R8d2zWgbsUmg
-* Moodsend : https://makecode.microbit.org/_VAiVxqE3CgDP
 
 ---
 
@@ -347,11 +304,14 @@ Choose yourself
 
 ---
 
-### Link-Collection
+### Resources 
 
-* see git-repo (branch gh_pages)
-* https://github.com/jogi-k/micro-controller-slides/tree/gh-pages
-* Micro-Bit-Clone : https://www.crowdsupply.com/seluxit/wappsto-bit
+* this talk [git-repo (branch gh_pages)](https://github.com/jogi-k/micro-controllers-part4/tree/gh-pages)
+* Micropython for Raspberry Pi Pico: [Info](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) and the [U2F-Image](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2)
+* Circuitpython for Raspberry Pi Pico: [Info](https://circuitpython.org/board/raspberry_pi_pico/) and the  [U2F-Image](https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.4.uf2)
+* C/C++ - SDK for Raspberry Pi Pico: [Info](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html) and the [GIT-Repository](https://github.com/raspberrypi/pico-sdk)
+
+
 ---
 
 ### Legal stuff
