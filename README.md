@@ -29,6 +29,7 @@
 * Raspi-Pico W : One year later
 * Adds Wireless
 * Connect to internet : https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf
+* Python : https://projects.raspberrypi.org/en/projects/get-started-pico-w/1
 * A WEB-Server : https://how2electronics.com/raspberry-pi-pico-w-web-server-tutorial-with-micropython/
 * A WEB-Server with Micro-Dot : http://www.doctormonk.com/2022/09/a-better-web-server-for-raspberry-pi.html
 * With PHEW : https://www.youtube.com/watch?v=0sPPxIq4hg8
