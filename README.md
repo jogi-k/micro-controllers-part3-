@@ -33,6 +33,21 @@
 * A WEB-Server with Micro-Dot : http://www.doctormonk.com/2022/09/a-better-web-server-for-raspberry-pi.html
 * With PHEW : https://www.youtube.com/watch?v=0sPPxIq4hg8
 * PHEW: https://pypi.org/project/micropython-phew/
+* Rückblick
+* Cross-Toolchain explained a little bit
+* Pico 
+   * Micropython
+   * Circuitpython
+   * SDK
+   * Arduino
+   * MMBasic (siehe auch aktuelle Make)
+* Vergleich Lernkurve , Einstieg
+* Startup Speed
+* Programm Speed
+* ePapar, 
+* Wireless
+* DevEnv
+* Groove
 
 
 ### CircuitPython
