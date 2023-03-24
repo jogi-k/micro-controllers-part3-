@@ -71,5 +71,28 @@
 * Homepage : https://www.teuniz.net/DSRemote/ 
 * funktioniert perfekt
 
+### 
+
+
+https://hackspace.raspberrypi.com/issues/52/pdf/download
+
+
+ePaper: https://www.waveshare.com/wiki/Pico-ePaper-2.9
+
+Editor for Basic on Pico : https://www.c-com.com.au/MMedit5.htm
+
+Basic for the PICO : https://geoffg.net/picomite.html
+
+The Description : https://geoffg.net/Downloads/picomite/PicoMite_User_Manual.pdf
+
+The Firmware : https://geoffg.net/Downloads/picomite/PicoMite_Firmware.zip
+
+The Source-Code : https://github.com/UKTailwind/PicoMite
+
+Hackspace Magazines by Raspberry Pi Foundation : https://hackspace.raspberrypi.com/issues
+
+
+Link to meetups from Zurich and Brunnen
+
 
 
