@@ -20,124 +20,12 @@
 
 ### Short recap 
 
-* complicated setup
+* complicated setup with a lot of tools
 * Arduino enters the world => all in one
 * Raspberry Pi Pico => Python
 
 
----
-
-
-### Micro-Python : official 
-
-#### Setup Part 1
-
-* Download Micropython U2F (with or w/o WLAN)
-* press BOOTSEL - Button
-* connect USB
-* A USB-Stick appears
-* copy U2F to USB-Stick
-* done
-
----
-
-### Micro-Python : official 
-
-#### Setup Part 2
-
-* Download Thonny 
-* Install Thonny
-* (contains already serial tty-connection to Pico)
-* done
-
----
-
-### Micro-Python : official 
-
-#### Start working 
-
-* Thonny == your IDE
-* Connect to Pico 
-* Open file local or from pico
-* Run
-
----
-
-### Setup from Raspi-foundation
-
-![Setup](https://www.raspberrypi.com/documentation/microcontrollers/images/MicroPython-640x360-v2.gif)
-
----
-
-### Micro Python
-
-####  Internal LED (Pin25)
-
-<pre><code data-line-numbers="2|4|6-8">
-import machine
-
-led_onboard = machine.Pin(25, machine.Pin.OUT)
-
-while True:
-    led_onboard.value(1)
-    led_onboard.value(0)
-
-</pre></code>
-
----
-
-### Micro Python 
-
-#### External red LED (Pin15)
-
-<pre><code data-line-numbers="2|4|6-8">
-import machine
-
-red_light = machine.Pin(15, machine.Pin.OUT)
-
-while True:
-    red_light.value(1)
-    red_light.value(0)
-
-</pre></code>
-
-
-
----
-
-### Circuit Python 
-
-#### Internal LED (Pin25)
-
-<pre><code data-line-numbers="2-4|6-7|9-12">
-import board
-import digitalio
-import time
-
-led = digitalio.DigitalInOut(board.LED)
-led.direction = digitalio.Direction.OUTPUT
-
-while True:
-    led.value = True
-    time.sleep(0.5)
-    led.value = False
-    time.sleep(0.5)
-
-
-</pre></code>
-
-
----
-
-### Demo-Time 1
-
-[https://makecode.microbit.org/#editor](https://makecode.microbit.org/#editor)
-
-
----
-
-### What we (hopefully) saw
-
+Todo : Fetch Slides from part 1
 
 ---
 
@@ -277,6 +165,119 @@ while True:
 
 
 ![dev_env_pico_arduino.png](./pics/dev_env_pico_arduino.png)
+
+
+### Micro-Python : official 
+
+#### Setup Part 1
+
+* Download Micropython U2F (with or w/o WLAN)
+* press BOOTSEL - Button
+* connect USB
+* A USB-Stick appears
+* copy U2F to USB-Stick
+* done
+
+---
+
+### Micro-Python : official 
+
+#### Setup Part 2
+
+* Download Thonny 
+* Install Thonny
+* (contains already serial tty-connection to Pico)
+* done
+
+---
+
+### Micro-Python : official 
+
+#### Start working 
+
+* Thonny == your IDE
+* Connect to Pico 
+* Open file local or from pico
+* Run
+
+---
+
+### Setup from Raspi-foundation
+
+![Setup](https://www.raspberrypi.com/documentation/microcontrollers/images/MicroPython-640x360-v2.gif)
+
+---
+
+### Micro Python
+
+####  Internal LED (Pin25)
+
+<pre><code data-line-numbers="2|4|6-8">
+import machine
+
+led_onboard = machine.Pin(25, machine.Pin.OUT)
+
+while True:
+    led_onboard.value(1)
+    led_onboard.value(0)
+
+</pre></code>
+
+---
+
+### Micro Python 
+
+#### External red LED (Pin15)
+
+<pre><code data-line-numbers="2|4|6-8">
+import machine
+
+red_light = machine.Pin(15, machine.Pin.OUT)
+
+while True:
+    red_light.value(1)
+    red_light.value(0)
+
+</pre></code>
+
+
+
+---
+
+### Circuit Python 
+
+#### Internal LED (Pin25)
+
+<pre><code data-line-numbers="2-4|6-7|9-12">
+import board
+import digitalio
+import time
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+    led.value = True
+    time.sleep(0.5)
+    led.value = False
+    time.sleep(0.5)
+
+
+</pre></code>
+
+
+---
+
+### Demo-Time 1
+
+[https://makecode.microbit.org/#editor](https://makecode.microbit.org/#editor)
+
+
+---
+
+### What we (hopefully) saw
+
+
 
 ---
 
