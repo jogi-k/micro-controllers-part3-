@@ -9,23 +9,78 @@
 
 ---
 
-* Recap last two micro-controller talks
+## Microcontroller Talks
+
+1. Introduction, history incl 6502, 80C166, via Arduino to Raspi Pico, Jogi, [Code](https://github.com/jogi-k/micro-controller-slides/tree/gh-pages) and [Slides](https://jogi-k.github.io/micro-controller-slides) 
+2. MC-based learning-platforms, Micro:Bit & Calliope, Jogi, [Code](https://github.com/jogi-k/micro-controllers-part2/tree/gh-pages) and [Slides](https://jogi-k.github.io/micro-controllers-part2)
+3. ESP8266- and EPS32-Universe, [Felix](https://github.com/fliiiix), Lightning Talks-Repo 
+4. **This** : More Pi Pico, Environments, Comparison, Eco-System, Jogi, [Code](https://github.com/jogi-k/micro-controllers-part4) and [Slides](https://jogi-k.github.io/micro-controllers-part4)
+5. (unplanned) internal usecase RLX-Testfarm, making use of [RubberJogi OS](https://github.com/jogi-k/RubberJogi), Lightning Talks Repo
+
+---
+
+* Recap first micro-controller talk
 * Show the different envs for Pico
 * Compare onboarding 
 * compare results
-* Know your platform
+* Some infos ECO-System 
 * New : WLAN and BLE 
 
 ---
 
 ### Short recap 
 
-* complicated setup with a lot of tools
+* Complicated setup with a lot of tools
 * Arduino enters the world => all in one
 * Raspberry Pi Pico => Python
 
+---
 
-Todo : Fetch Slides from part 1
+### Programming Environment
+
+![dev_env_80166.png](./pics/dev_env_80166.png)
+
+---
+
+####  Steps needed 
+
+<pre><code data-line-numbers="2|4-6|8|10|12|14">
+Edit Code 
+
+Call C-Compiler (C ==> Assembler) 
+
+Call Assembler  (Assembler ==> Binary)
+
+Call Linker (several Modules ==> one Executable)
+
+Call Locator (knows Memory-Layout)
+
+Call HEX-converter (Flash-Format)
+
+Send via Serial line to Target-Board
+
+</pre></code>
+
+---
+
+### "THE" innovation 
+
+![dev_env_arduino.png](./pics/dev_env_arduino.png)
+
+---
+
+### "All in one"
+ 
+![dev_env_arduino_II.png](./pics/dev_env_arduino_II.png)
+
+---
+
+### The IDE
+
+
+![arduino_ide.png](./pics/arduino_ide.png)
+
+---
 
 ---
 
