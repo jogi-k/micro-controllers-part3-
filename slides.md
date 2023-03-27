@@ -63,13 +63,13 @@ Send via Serial line to Target-Board
 
 ---
 
-### "THE" innovation 
+### "THE" innovation : From 
 
 ![dev_env_arduino.png](./pics/dev_env_arduino.png)
 
 ---
 
-### "All in one"
+### To "Arduino: All in one"
  
 ![dev_env_arduino_II.png](./pics/dev_env_arduino_II.png)
 
@@ -82,10 +82,17 @@ Send via Serial line to Target-Board
 
 ---
 
+### Arduino-Compatibility
+
+* From 2008 till
+* 2021 
+* Micro-Controller for "everyone"
+* "needed" to be Arduino-compatible
+
+
 ---
 
 ### 2021 Raspberry Pi Pico enters the world
-
 
 
 ---
@@ -98,9 +105,7 @@ Send via Serial line to Target-Board
     * breaks with the "Has to run with Arduino-IDE"-Dogma 
     * Has at least one interesting HW-Block, the PIO
 
-
 ---
-
 
 ### Raspberry Pi Pico
 
@@ -138,6 +143,8 @@ Send via Serial line to Target-Board
 * Micropython
 * Circuitpython
 * Arduino-IDE
+* MMBasic
+
 
 ---
 
@@ -190,7 +197,9 @@ Send via Serial line to Target-Board
 * Is a fork of Micro-Python
 * Done/maintained by Adafruit
 * A lot of differences in the libraries
-* Main difference visible : Provides a "real" USB-Drive
+* Main difference visible : Provides a "real" *USB-Drive*
+* Can be used with *any* editor
+* mu_edit is preffered, offers some capabilities
 
 ---
 
@@ -200,27 +209,6 @@ Send via Serial line to Target-Board
 
 
 ---
-
-### Arduino for the PICO
-
-* was not in the focus of Raspberry-Pi organisation
-* started as community-project
-* since end of April 2021 : officially supported
-
----
-
-### Installation via Board-Library
-
-
-![pico_boardsmanager.png](./pics/pico_boardsmanager.png)
-
----
-
-### Dev-Environement : Arduino
-
-
-![dev_env_pico_arduino.png](./pics/dev_env_pico_arduino.png)
-
 
 ### Micro-Python : official 
 
@@ -323,18 +311,75 @@ while True:
 
 ---
 
-### Demo-Time 1
-
-[https://makecode.microbit.org/#editor](https://makecode.microbit.org/#editor)
+### Demo-Time 
 
 
 ---
 
 ### What we (hopefully) saw
 
+---
+
+### Speed Micropython
 
 
 ---
+
+### Startup Miropython
+
+
+---
+
+### Speed Circuitpython
+
+
+---
+
+### Startup Circuitpython
+
+---
+
+### Speed Arduino 
+
+
+---
+
+### Startup Arduino 
+
+---
+
+### Speed SDK 
+
+
+---
+
+### Startup SDK 
+
+---
+
+### Speed MMBasic
+
+
+---
+
+### Startup MMBasic
+
+
+---
+
+### Summary
+
+|   	| Getting started 	| Execution Speed |  Startup Delay |
+|------	|----------------------	|-----------------|----------------|
+| sdfg 	|      	          	|             	  |         	   |
+| sdfg 	|      	        	|        	  |         	   |
+| sdfg 	|      	        	|        	  |         	   |
+
+
+
+
+---
+
 
 ### The PIO
 
@@ -354,6 +399,7 @@ while True:
 * Micro-Python with USB-serial / Thonny
 * Circuit-Python with real filesystem
 * Arduino - IDE 
+* MMBasic  
 
 Choose yourself
 
@@ -366,13 +412,35 @@ Choose yourself
 * Micropython for Raspberry Pi Pico: [Info](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) and the [U2F-Image](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2)
 * Circuitpython for Raspberry Pi Pico: [Info](https://circuitpython.org/board/raspberry_pi_pico/) and the  [U2F-Image](https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.4.uf2)
 * C/C++ - SDK for Raspberry Pi Pico: [Info](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html) and the [GIT-Repository](https://github.com/raspberrypi/pico-sdk)
+* https://www.heise.de/ratgeber/Programmieren-mit-dem-Raspberry-Pi-Pico-Back-to-BASIC-7461038.html
+* https://hackspace.raspberrypi.com/issues/52/pdf/download
+
+
+---
+
+### Arduino - Meetups
+
+#### Zürich
+
+
+
+* Every first monday in the month in Zürich : [here](https://www.meetup.com/arduino-und-elektronik-abend-im-fablab-zurich/events/292052805)
+
+---
+
+#### Brunnen 
+
+
+
+* All four weeks , wednesday or thursday in Brunnen : [here](https://www.meetup.com/de-DE/arduino-raspberry-pi-und-mehr-innerschwyz/) 
+
 
 
 ---
 
 ### Legal stuff
 
-* 
+
 
 ---
 
