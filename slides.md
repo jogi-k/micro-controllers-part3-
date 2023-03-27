@@ -179,7 +179,7 @@ Send via Serial line to Target-Board
 
 * Attempt to put Python on Micro-Controller-Boards
 * Started with an own Board
-* Interpreter now available for a lot of µC-Boards
+* Interpreter now available for a lot of Micro-C-Boards
 * Including the Raspberry-Pi Pico
 
 
@@ -199,7 +199,7 @@ Send via Serial line to Target-Board
 * A lot of differences in the libraries
 * Main difference visible : Provides a "real" *USB-Drive*
 * Can be used with *any* editor
-* mu_edit is preffered, offers some capabilities
+* mu-editor is preffered, offers some capabilities
 
 ---
 
@@ -308,10 +308,32 @@ while True:
 
 </pre></code>
 
+---
+
+
+### Differences 
+
+* Libs completely differ
+* Support for Hardware
+* USB-appearance
+* Autostart:
+    * main.py Micropython
+    * code.py Circuitpython
+* Micropython is "official"
+
 
 ---
 
 ### Demo-Time 
+
+Note:
+OSZI dsremote
+mypthon: main.py
+cpython: code.py
+Basic: screen /dev/ttyACM 38400
+Ctrl C zum Abbrechen
+Ctrl A k zum Verlassen von Screen
+
 
 
 ---
@@ -322,60 +344,91 @@ while True:
 
 ### Speed Micropython
 
+![mpython_speed.png](./pics/mpython_speed.png)
 
 ---
 
 ### Startup Miropython
+
+![mpython_start.png](./pics/mpython_start.png)
 
 
 ---
 
 ### Speed Circuitpython
 
+![cpython_speed2.png](./pics/cpython_speed2.png)
 
 ---
 
 ### Startup Circuitpython
 
+![cpython_start.png](./pics/cpython_start.png)
+
+
 ---
 
 ### Speed Arduino 
+
+![Arduino_Speed.png](./pics/Arduino_Speed.png)
 
 
 ---
 
 ### Startup Arduino 
 
+![Arduino_Startup.png](./pics/Arduino_Startup.png)
+
+
 ---
 
 ### Speed SDK 
+
+![sdk_speed.png](./pics/sdk_speed.png)
+
 
 
 ---
 
 ### Startup SDK 
 
+![sdk_start.png](./pics/sdk_start.png)
+
+
 ---
 
 ### Speed MMBasic
+
+![mmbasic_speed.png](./pics/mmbasic_speed.png)
+
 
 
 ---
 
 ### Startup MMBasic
 
+![mmbasic_start.png](./pics/mmbasic_start.png)
+
 
 ---
 
 ### Summary
 
-|   	| Getting started 	| Execution Speed |  Startup Delay |
-|------	|----------------------	|-----------------|----------------|
-| sdfg 	|      	          	|             	  |         	   |
-| sdfg 	|      	        	|        	  |         	   |
-| sdfg 	|      	        	|        	  |         	   |
+|                | Getting started | Execution Speed |  Startup Delay |
+|----------------|-----------------|-----------------|----------------|
+| MMBasic  	     | Okay    	       |     30 kHz      |  3000 ms	      |
+| Micro-Python   | Easy        	   |     74 kHz    	 |   100 ms       |
+| Circuit Python | even more easy  |     90 kHz      |  1200 ms       |
+| Arduino  	     | Easy/Okay       |    850 kHz      |   150 ms       |
+| SDK  	         | Most effort     | 30 000 kHz      |    20 ms	      |
 
 
+
+---
+
+### Speed an issue ?
+
+[Video](./pics/IMG_0149.mp4)
 
 
 ---
@@ -388,12 +441,49 @@ while True:
 * offloads work from the CPU, compared to "bit-banging"
 * https://www.cnx-software.com/2021/01/27/a-closer-look-at-raspberry-pi-rp2040-programmable-ios-pio/
 
+Unfortunately : Did not make it into this talk ...
 
 ---
 
+### 2022 : Pico with WiFi
+
+
+![Pico W](./pics/pico_w.jpg)
+
+
+---
+
+### Easy Webserver 
+
+* Serve Web-Pages
+* Control LEDs
+* Starting with PicoZero, even more simple
+
+---
+
+### Demo 2
+
+---
+
+### Additional HW
+
+* ePaper ==> Python
+* Round LCD w Gyroscope ==> Python 
+* Grove Breakout Board ==> Python 
+* Small LCD with Key ==> Mandelbrot ! ==> SDK
+
+---
+
+### Demo 3
+
+
+---
+
+
+
 ### Conclusion for PICO
 
-4 Different Dev-Environments
+5 Different Dev-Environments
 
 * C/C++ - SDK via cmake and U2F-Filesystem
 * Micro-Python with USB-serial / Thonny
@@ -401,7 +491,7 @@ while True:
 * Arduino - IDE 
 * MMBasic  
 
-Choose yourself
+Know the limits and choose yourself
 
 
 ---
@@ -418,29 +508,20 @@ Choose yourself
 
 ---
 
-### Arduino - Meetups
+### Meetup Zuerich
 
-#### Zürich
-
-
-
-* Every first monday in the month in Zürich : [here](https://www.meetup.com/arduino-und-elektronik-abend-im-fablab-zurich/events/292052805)
-
----
-
-#### Brunnen 
+![fablab_meetup.png](./pics/fablab_meetup.png)
 
 
-
-* All four weeks , wednesday or thursday in Brunnen : [here](https://www.meetup.com/de-DE/arduino-raspberry-pi-und-mehr-innerschwyz/) 
-
-
+Every first monday in the month in Zuerich : [here](https://www.meetup.com/arduino-und-elektronik-abend-im-fablab-zurich)
 
 ---
 
-### Legal stuff
+### Meetup Brunnen 
 
+![turbine_meetunp.png](./pics/turbine_meetunp.png)
 
+every four weeks , wednesday or thursday in Brunnen : [here](https://www.meetup.com/de-DE/arduino-raspberry-pi-und-mehr-innerschwyz/) 
 
 ---
 
