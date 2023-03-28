@@ -413,7 +413,7 @@ Auf USB Unterschiede hinweisen
 
 ### Speed an issue ?
 
-[Video](./pics/IMG_0149.mp4)
+[Video](https://github.com/jogi-k/micro-controllers-part4/blob/gh-pages/pics/IMG_0149.mp4)
 
 
 ---
