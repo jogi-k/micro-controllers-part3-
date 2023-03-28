@@ -47,19 +47,23 @@
 <pre><code data-line-numbers="2|4-6|8|10|12|14">
 Edit Code 
 
-Call C-Compiler (C ==> Assembler) 
+Call Cross-C-Compiler (C ==> Assembler) 
 
-Call Assembler  (Assembler ==> Binary)
+Call Cross-Assembler  (Assembler ==> Binary)
 
-Call Linker (several Modules ==> one Executable)
+Call Cross-Linker (several Modules ==> one Executable)
 
-Call Locator (knows Memory-Layout)
+Call Cross-Locator (knows Memory-Layout)
 
 Call HEX-converter (Flash-Format)
 
 Send via Serial line to Target-Board
 
 </pre></code>
+
+---
+
+### 2005/2006 Arduino enters the world
 
 ---
 
@@ -84,8 +88,7 @@ Send via Serial line to Target-Board
 
 ### Arduino-Compatibility
 
-* From 2008 till
-* 2021 
+* From 2005 till 2021 
 * Micro-Controller for "everyone"
 * "needed" to be Arduino-compatible
 
@@ -268,24 +271,6 @@ while True:
 
 ---
 
-### Micro Python 
-
-#### External red LED (Pin15)
-
-<pre><code data-line-numbers="2|4|6-8">
-import machine
-
-red_light = machine.Pin(15, machine.Pin.OUT)
-
-while True:
-    red_light.value(1)
-    red_light.value(0)
-
-</pre></code>
-
-
-
----
 
 ### Circuit Python 
 
@@ -333,7 +318,7 @@ cpython: code.py
 Basic: screen /dev/ttyACM 38400
 Ctrl C zum Abbrechen
 Ctrl A k zum Verlassen von Screen
-
+Auf USB Unterschiede hinweisen
 
 
 ---
@@ -463,14 +448,30 @@ Unfortunately : Did not make it into this talk ...
 
 ### Demo 2
 
+
 ---
+
+### What we (hopefully) saw
+
+
+---
+
+### Pico-W as Server
+
+
+![Pico W](./pics/pico_server.jpg)
+
+[Source](https://github.com/jogi-k/micro-controllers-part4/blob/gh-pages/code/python/mpython/web/web_server_traffic_light.py)
+
+---
+
 
 ### Additional HW
 
-* ePaper ==> Python
-* Round LCD w Gyroscope ==> Python 
-* Grove Breakout Board ==> Python 
-* Small LCD with Key ==> Mandelbrot ! ==> SDK
+* ePaper => Python
+* Round LCD w Gyroscope => Python 
+* Grove Breakout Board => Python 
+* Small LCD with Key => Mandelbrot ! => SDK
 
 ---
 
@@ -479,6 +480,35 @@ Unfortunately : Did not make it into this talk ...
 
 ---
 
+### What we (hopefully) saw
+
+
+---
+
+### Pico ePaper 
+
+
+![Pico W](./pics/pico_e-paper.jpg)
+
+
+---
+
+### round LCD 
+
+
+![Pico W](./pics/round_lcd.jpg)
+
+[Source](https://github.com/jogi-k/micro-controllers-part4/tree/gh-pages/code/python/mpython/round_lcd)
+
+---
+
+### Grove-Sensors 
+
+
+![Pico W](./pics/pico_grove.jpg)
+
+
+---
 
 
 ### Conclusion for PICO
@@ -492,19 +522,6 @@ Unfortunately : Did not make it into this talk ...
 * MMBasic  
 
 Know the limits and choose yourself
-
-
----
-
-### Resources 
-
-* this talk [git-repo (branch gh_pages)](https://github.com/jogi-k/micro-controllers-part4/tree/gh-pages)
-* Micropython for Raspberry Pi Pico: [Info](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) and the [U2F-Image](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2)
-* Circuitpython for Raspberry Pi Pico: [Info](https://circuitpython.org/board/raspberry_pi_pico/) and the  [U2F-Image](https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.4.uf2)
-* C/C++ - SDK for Raspberry Pi Pico: [Info](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html) and the [GIT-Repository](https://github.com/raspberrypi/pico-sdk)
-* https://www.heise.de/ratgeber/Programmieren-mit-dem-Raspberry-Pi-Pico-Back-to-BASIC-7461038.html
-* https://hackspace.raspberrypi.com/issues/52/pdf/download
-
 
 ---
 
@@ -525,6 +542,57 @@ every four weeks , wednesday or thursday in Brunnen : [here](https://www.meetup.
 
 ---
 
+### Resources 
+
+* this talk [git-repo (branch gh_pages)](https://github.com/jogi-k/micro-controllers-part4/tree/gh-pages)
+* this talk [as slides](https://jogi-k.github.io/micro-controllers-part4)
+
+---
+
+### Python  
+ 
+* Micropython Pi Pico: [Info](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) [U2F-Image](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2)
+* Circuitpython Pi Pico: [Info](https://circuitpython.org/board/raspberry_pi_pico/) [U2F-Image](https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.4.uf2)
+* Getting started with Raspberry Pi Pico and Micro-Python [Book](https://hackspace.raspberrypi.com/books/micropython-pico/pdf/download)
+
+--- 
+
+### Basic
+
+
+* Editor for Basic on Pico : https://www.c-com.com.au/MMedit5.htm
+* Basic for the PICO : https://geoffg.net/picomite.html
+* The Description : https://geoffg.net/Downloads/picomite/PicoMite_User_Manual.pdf
+* The Firmware : https://geoffg.net/Downloads/picomite/PicoMite_Firmware.zip
+* The Source-Code : https://github.com/UKTailwind/PicoMite
+* https://www.heise.de/ratgeber/Programmieren-mit-dem-Raspberry-Pi-Pico-Back-to-BASIC-7461038.html
+
+---
+
+### SDK 
+
+* C/C++ - SDK for Raspberry Pi Pico: [Info](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html) and the [GIT-Repository](https://github.com/raspberrypi/pico-sdk)
+
+---
+
+### Python / Pico / Web
+
+
+* A WEB-Server with Micro-Dot : http://www.doctormonk.com/2022/09/a-better-web-server-for-raspberry-pi.html
+* With PHEW : https://www.youtube.com/watch?v=0sPPxIq4hg8
+* PHEW: https://pypi.org/project/micropython-phew/
+
+---
+
+### Free Magazines
+
+* Hackspace Magazines by Raspberry Pi Foundation : https://hackspace.raspberrypi.com/issues
+
+---
+
+
 ### The END 
 
 ![Jogi](yogi_bear-head.jpg)
+
+
