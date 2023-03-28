@@ -15,7 +15,7 @@
 2. MC-based learning-platforms, Micro:Bit & Calliope, Jogi, [Code](https://github.com/jogi-k/micro-controllers-part2/tree/gh-pages) and [Slides](https://jogi-k.github.io/micro-controllers-part2)
 3. ESP8266- and EPS32-Universe, [Felix](https://github.com/fliiiix), Lightning Talks-Repo 
 4. **This** : More Pi Pico, Environments, Comparison, Eco-System, Jogi, [Code](https://github.com/jogi-k/micro-controllers-part4) and [Slides](https://jogi-k.github.io/micro-controllers-part4)
-5. (unplanned) internal usecase RLX-Testfarm, making use of [RubberJogi OS](https://github.com/jogi-k/RubberJogi), Lightning Talks Repo
+5. (unplanned) internal usecase RLX-Testfarm, making use of [RubberJogi OSS](https://github.com/jogi-k/RubberJogi), Lightning Talks Repo
 
 ---
 
@@ -555,7 +555,7 @@ every four weeks , wednesday or thursday in Brunnen : [here](https://www.meetup.
 * Circuitpython Pi Pico: [Info](https://circuitpython.org/board/raspberry_pi_pico/) [U2F-Image](https://downloads.circuitpython.org/bin/raspberry_pi_pico/en_US/adafruit-circuitpython-raspberry_pi_pico-en_US-8.0.4.uf2)
 * Getting started with Raspberry Pi Pico and Micro-Python [Book](https://hackspace.raspberrypi.com/books/micropython-pico/pdf/download)
 
---- 
+---
 
 ### Basic
 
